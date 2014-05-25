@@ -14,7 +14,7 @@ Where `pxr0` is red value for pixel 0, `pxg2` is green value for pixel 2, etc.
 Instructions
 ---
 
-Download `train.7z` from the Kaggle site and extract it in the same directory as this repo. Then run:
+Download `train.7z` from the Kaggle site and extract the `train` folder to this repo directory. Also make sure the file `trainLabels.csv` is in the same directory as the repo. Then run:
 
 ```
 python getpx.py > train.csv
